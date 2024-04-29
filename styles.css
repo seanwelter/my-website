@@ -1,0 +1,43 @@
+p {
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.firstp {
+    color: #f5a20a;
+}
+
+.secondp {
+    color: #ce9d16;
+}
+
+h1 {
+    font-style: italic;
+    color: #0b570b;
+}
+
+h2.intro {
+    color: #22c2a7;
+}
+
+h2.locat {
+    color: #0f0fa3;
+}
+
+h2.links {
+    color: #3885d3;
+}
+
+ul>li {
+    color: #00ff00;
+}
+
+h2+li>a[href] {
+    color: #640577;
+    font-family: fantasy;
+    font-size: 120%;
+}
+
+footer{
+    font-style: italic;
+}
