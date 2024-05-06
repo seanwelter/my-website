@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 25px;
+    color: #0101a7;
+}
+
+h2 {
+    padding: 10px;
+    color: #d32424;
+}
+
+p {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+body {
+    width: 600px;
+    background-image: linear-gradient(to right, #493613 0%, #58580e 50%, #072b07 100%);
+}
+
+main {
+    float: left;
+    width: 40%;
+    margin: 0 20px 10px;
+    border: 1px solid black;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    margin: 0 20px 10px;
+    border: 1px solid black;
+}
+
+footer {
+    clear: both;
+    padding: 50px;
+}

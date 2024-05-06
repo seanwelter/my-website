@@ -3,29 +3,51 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    background-image: linear-gradient(to right, #493613 0%, #58580e 50%, #072b07 100%);
+}
+
 .firstp {
     color: #f5a20a;
+    width: 600px;
 }
 
 .secondp {
     color: #ce9d16;
+    width: 600px;
 }
 
 h1 {
     font-style: italic;
-    color: #0b570b;
+    color: #bb0e0e;
+    border: 5px dashed black;
+    padding: 5px;
+    width: 635px;
+    background-color: #3885d3;
 }
 
 h2.intro {
     color: #22c2a7;
+    border: 5px dashed black;
+    padding: 5px;
+    width: 130px;
+    background-color: #553209;
 }
 
 h2.locat {
-    color: #0f0fa3;
+    color: #22c2a7;
+    border: 5px dashed black;
+    padding: 5px;
+    width: 100px;
+    background-color: #553209;
 }
 
 h2.links {
-    color: #3885d3;
+    color: #22c2a7;
+    border: 5px dashed black;
+    padding: 5px;
+    width: 121px;
+    background-color: #553209;
 }
 
 ul>li {
@@ -38,6 +60,6 @@ h2+li>a[href] {
     font-size: 120%;
 }
 
-footer{
+footer {
     font-style: italic;
 }
