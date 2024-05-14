@@ -1,45 +1,44 @@
 p {
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #bb8417;
+    max-width: 60%;
+    min-width: 40%;
 }
 
 body {
-    background-image: linear-gradient(to right, #493613 0%, #58580e 50%, #072b07 100%);
-}
-
-.firstp {
-    color: #f5a20a;
-    width: 600px;
-}
-
-.secondp {
-    color: #ce9d16;
-    width: 600px;
+    background-color: #053f05;
+    width: 98%;
+    max-width: 1980px;
 }
 
 h1 {
     font-style: italic;
     color: #bb0e0e;
     border: 5px dashed black;
-    padding: 5px;
-    width: 635px;
+    padding: 1%;
+    width: 34%;
     background-color: #3885d3;
 }
 
 h2.intro {
     color: #22c2a7;
     border: 5px dashed black;
-    padding: 5px;
-    width: 130px;
+    padding: .5%;
+    width: 7%;
+    text-align: center;
     background-color: #553209;
+    min-width: 130px;
 }
 
-h2.locat {
+h2.photos {
     color: #22c2a7;
     border: 5px dashed black;
-    padding: 5px;
-    width: 100px;
+    padding: .5%;
+    width: 8%;
+    text-align: center;
     background-color: #553209;
+    min-width: 150px;
 }
 
 h2.links {
@@ -60,6 +59,74 @@ h2+li>a[href] {
     font-size: 120%;
 }
 
+img {
+    width: 30%;
+    min-width: 20%;
+}
+
 footer {
     font-style: italic;
+}
+
+/*styles for the nav menu*/
+
+#nav_menu {
+    border: 5px solid black;
+    background-color: gray;
+}
+
+#nav_menu ul {
+    list-style: none;
+    position: relative;
+}
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+#nav_menu ul li a {
+    font-weight: bolder;
+    color: blue;
+    border: 5px solid rgb(140, 0, 255);
+    background-color: #00ff00;
+    padding: 4px;
+    margin: 4px;
+}
+
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul li:hover>ul {
+    display: block;
+    padding: 1% 0 0 0;
+}
+
+#nav_menu>ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 482px) {
+
+    #nav_menu {
+        min-width: 480px;
+    }
+
+    #nav_menu ul {
+        min-width: 480px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    #nav_menu ul ul {
+        min-width: 978px;
+    }
 }

@@ -19,25 +19,6 @@ body {
     background-image: linear-gradient(to right, #493613 0%, #58580e 50%, #072b07 100%);
 }
 
-main {
-    float: left;
-    width: 40%;
-    margin: 0 20px 10px;
-    border: 1px solid black;
-}
-
-aside {
-    float: right;
-    width: 40%;
-    margin: 0 20px 10px;
-    border: 1px solid black;
-}
-
-footer {
-    clear: both;
-    padding: 50px;
-}
-
 /*styles for the nav menu*/
 
 #nav_menu {
