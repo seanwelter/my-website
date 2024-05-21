@@ -1,57 +1,53 @@
-p {
-    font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #bb8417;
-    max-width: 60%;
-    min-width: 40%;
-}
-
-body {
-    background-color: #053f05;
-}
-
 h1 {
-    font-style: italic;
-    font-size: auto;
-    text-align: center;
-    color: #bb0e0e;
-    border: 5px dashed black;
-    background-color: #3885d3;
+    width: auto;
+    padding: 25px;
+    color: #0101a7;
+}
+
+h2 {
+    padding: 10px;
+    color: #24b9d3;
     width: fit-content;
     height: fit-content;
     padding: 5px;
     margin: auto;
 }
 
-h2 {
-    color: #22c2a7;
-    font-size: auto;
-    border: 5px dashed black;
-    text-align: center;
-    background-color: #553209;
+p {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+body {
+    background-image: linear-gradient(to right, #493613 0%, #072b07 50%, #493613 100%);
+}
+
+main {
+    margin: 0 20px 10px;
+    display: grid;
+    grid-template: 300px 300px / 500px 500px;
+    grid-gap: 10px 10px;
+    align-self: center;
+    margin: auto;
     width: fit-content;
     height: fit-content;
     padding: 5px;
-}
-
-ul>li {
-    color: #00ff00;
-}
-
-h2+li>a[href] {
-    color: #640577;
-    font-family: fantasy;
-    font-size: 120%;
-}
-
-img {
-    width: 30%;
-    min-width: 20%;
+    margin: auto;
 }
 
 footer {
-    font-style: italic;
+    clear: both;
+    padding: 50px;
 }
+
+/* styles for the divisions */
+
+div {
+    background-image: linear-gradient(to top, #072b07 0%, #493613 40%,  #493613 60%, #072b07 100%);
+    border: 5px solid black;
+}
+
+
 
 /*styles for the nav menu*/
 
@@ -110,8 +106,11 @@ footer {
 /* media queries */
 
 @media only screen and (max-width: 980px) {
-
     #nav_menu ul {
         flex-direction: column;
+    }
+
+    main {
+        grid-template: 300px 300px 300px 300px / 500px;
     }
 }
