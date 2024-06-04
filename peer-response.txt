@@ -1,0 +1,7 @@
+1.  I think the black text on the dark green background in the locations page is a little hard to read and could use more contrast.
+
+For this one, I made the text on the location pages match the coloring of the text on my Home page; this also carries with it a bit of repetition.
+
+2.  The location name for each location page is pretty far to the left, it feels like my eyes do an unnecessary amount of traveling.
+
+For this one, I re-formatted the location names to match that of the Home page, again continuing a pattern of repetition.
