@@ -1,9 +1,11 @@
 p {
+    font-size: larger;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #bb8417;
     max-width: 60%;
     min-width: 40%;
+    margin: auto;
 }
 
 body {
@@ -33,6 +35,7 @@ h2 {
     width: fit-content;
     height: fit-content;
     padding: 5px;
+    margin: auto;
 }
 
 ul>li {
@@ -46,8 +49,10 @@ h2+li>a[href] {
 }
 
 img {
+    display: block;
     width: 30%;
     min-width: 20%;
+    margin: 10px auto;
 }
 
 footer {
@@ -106,6 +111,17 @@ footer {
     content: "";
     display: block;
     clear: both;
+}
+
+/*styles for the footer*/
+
+footer {
+    font-size: larger;
+    width: auto;
+    border: 5px solid black;
+    background-image: linear-gradient(to right, #134149 0%, #ffffff 50%, #3a060a 100%);
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* media queries */
